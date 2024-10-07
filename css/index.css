@@ -1,0 +1,72 @@
+body {
+    background-color: #f3f3f3;
+    font-family: 'Anta', sans-serif;
+}
+
+header h1{
+    font-family: 'Jacquarda Bastarda 9', serif;
+}
+
+header {
+    background-color: #333;
+    text-align: center;
+    color: #fff;
+    padding: 1.25em 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    margin-right: 1.25em;
+
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+header ul li a:hover {
+    color: #ffc107;
+}
+
+.welcome h1{
+    padding-left: 0.0625em;
+    margin: 0;
+    font-size: 6.75em;
+    font-family: 'Anta', sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+p {
+    padding-left: 1em;
+    font-family: 'Anta', sans-serif;
+    margin-left: 20em;
+}
+
+.diff{
+    color: #ffc107;
+}
+
+.welcome img{
+    width: 4em;
+    height: 3.75em;
+    margin-left: 1em;
+    margin-top: 1em;
+    border: 0.05em solid #ffc107;
+    border-radius: 0.9375em;
+    background-color: #333;
+}
+
+footer{
+    margin-bottom: 0;
+    margin: 20em;
+}

@@ -1,0 +1,83 @@
+body {
+    background-color: #f3f3f3;
+    font-family: 'Anta', sans-serif;
+}
+
+header h1{
+    font-family: 'Jacquarda Bastarda 9', serif;
+}
+
+header {
+    background-color: #333;
+    text-align: center;
+    color: #fff;
+    padding: 1.25em 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    margin-right: 1.25em;
+
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+header ul li a:hover {
+    color: #ffc107;
+}
+
+
+form{
+    max-width: 30em;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 0.0625em solid #333;
+    margin: 45em;
+    margin-top: 13.5em;
+    margin-left: 10em;
+    border-radius: 0.25em;
+    padding: 2em;
+}
+
+
+
+.login{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 1em;
+    margin: 1em;
+}
+
+.login h2{
+    font-size: 12.5em;
+    color: white;
+}
+
+label[for="email address"]{
+    background-color: white;
+}
+
+
+.fullstop{
+    color: #ffc107;
+}
+
+footer{
+    text-align: center;
+}
+
+.login div:nth-child(1) {
+    background-color: #333;
+}

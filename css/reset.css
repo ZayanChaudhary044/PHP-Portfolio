@@ -1,0 +1,7 @@
+
+head,header, body, div, section, article, footer{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}

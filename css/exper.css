@@ -1,0 +1,65 @@
+body {
+    background-color: #f3f3f3;
+    font-family: 'Anta', sans-serif;
+}
+
+header h1{
+    font-family: 'Jacquarda Bastarda 9', serif;
+}
+
+header {
+    background-color: #333;
+    text-align: center;
+    color: #fff;
+    padding: 1.25em 0;
+}
+
+header ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header ul li {
+    display: inline;
+    margin-right: 1.25em;
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+header ul li a:hover {
+    color: #ffc107;
+}
+
+.cont{
+    display: flex;
+    border: 0.0625em solid darkgrey;
+    background-color: white;
+    padding: 1.25em;
+    margin: 10em;
+    border-radius: 1.625em;
+}
+
+.img{
+    width: 9.375em;
+    margin-right: 1.25em;
+}
+
+.cont{
+    flex: 1;
+}
+
+h3{
+    font-size: 6em;
+}
+
+.fullstop{
+    color: #ffc107;
+}
+
+footer{
+    text-align: center;
+}

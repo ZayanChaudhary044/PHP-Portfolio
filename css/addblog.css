@@ -1,0 +1,101 @@
+body {
+    background-color: #f3f3f3;
+    margin: 0;
+    font-family: 'Anta', sans-serif;
+}
+
+header h1{
+    font-family: 'Jacquarda Bastarda 9', serif;
+}
+
+header {
+    background-color: #333;
+    text-align: center;
+    color: #fff;
+    padding: 1.25em 0;
+}
+
+header ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header ul li {
+    display: inline;
+    margin-right: 1.25em;
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+header ul li a:hover {
+    color: #ffc107;
+}
+
+h3{
+    font-size: 6em;
+}
+
+.fullstop{
+    color: #ffc107;
+}
+
+form{
+    max-width: 30em;
+    margin: 10em auto;
+    padding: 1em;
+    border: 0.0625em solid #333;
+    text-align: center;
+    border-radius: 1.5em;
+}
+
+label[for=subject]{
+    display: block;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+label[for=blog]{
+    display: block;
+    margin-bottom: 0.5em;
+    text-align: center;
+    margin-top: 0.5em;
+}
+
+input[type=text], textarea{
+    width: 100%;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+button[type=submit]{
+    width: 15em;
+    color: white;
+    background-color: #333;
+    font-family: 'anta', sans-serif;
+    margin-top: 1em;
+}
+
+button[type=button]{
+    width: 15em;
+    color: white;
+    background-color: #333;
+    font-family: 'anta', sans-serif;
+    margin-top: 1em;
+}
+
+#buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.missing-field{
+    border: 0.0625em solid red;
+}
+
+footer{
+    text-align: center;
+}

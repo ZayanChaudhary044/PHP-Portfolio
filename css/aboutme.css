@@ -1,0 +1,115 @@
+body {
+    background-color: #f3f3f3;
+    font-family: 'Anta', sans-serif;
+}
+
+header h1{
+    font-family: 'Jacquarda Bastarda 9', serif;
+}
+
+header {
+    background-color: #333;
+    text-align: center;
+    color: #fff;
+    padding: 1.25em 0;
+}
+
+header ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header ul li {
+    display: inline;
+    margin-right: 1.25em;
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+header ul li a:hover {
+    color: #ffc107;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 0.5fr 0.5fr;
+    gap: 1.25em;
+    padding: 1.25em;
+}
+
+.section {
+    background-color: #fff;
+    padding: 1.25em;
+    border-radius: 0.5em;
+}
+
+#heading h1 {
+    font-size: 2.5em;
+    margin-top: 0;
+}
+
+.fullstop {
+    color: #ffc107;
+}
+
+#skills{
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.section h3 {
+    color: #ffc107;
+    font-style: bold;
+}
+
+#int{
+    grid-column: 2;
+    grid-row: 3;
+}
+
+#exp{
+    grid-column: 1;
+    grid-row: 2;
+
+}
+#education{
+    grid-column: 2;
+    grid-row: 2;
+}
+.edu {
+    margin-bottom: 1.25em;
+}
+
+.edu h4 {
+    margin-top: 0;
+}
+
+.image{
+    width: 15em;
+    height: 20em;
+    border: 0.625em solid #ffc107;
+    border-radius: 1.5em;
+    justify-self: end;
+
+}
+
+#skills ul li{
+    list-style-type: none;
+    margin-right: 0;
+}
+
+
+footer{
+    text-align: center;
+    margin-bottom: 0;
+}
+
+
+
+
