@@ -1,0 +1,1 @@
+This Portfolio is a First Year Project which allowed myself to explore and incorporate PHP and the basics of JavaScript. MAMP (a database application) is also used for this to run including the storing, deleting and adding of database data.
